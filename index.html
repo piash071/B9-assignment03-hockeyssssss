@@ -30,17 +30,155 @@
       </style>
 </head>
 <body class="font-manrope">
-    <header>
+    <header class="container mx-auto">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn text-3xl">Hockey<span class="text-[#FF4240]">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a><span class="text-[#FF4240]">Home</span></a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact</a></li>
+                
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <img class="px-3 hidden lg:flex" src="Images/Frame.png" alt="">
+              <a class="btn bg-[#FF4240]">Get Ticket</a>
+            </div>
+          </div>
+
+<!-- banner section -->
+          <div class="container mx-auto py-10">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute rounded-lg bottom-8 right-16 h-[25vh] w-2/5 bg-black text-white hidden lg:flex">
+                  <div class="mx-4 my-5 gap-3">
+                    <h2 class="text-3xl font-semibold items-center py-3">Meet all the heroes from the field</h2>
+                    <p class="py-1 font-light opacity-4">Every member is instilled with a sense of responsibility, both on and off the ice, contributing to the club's legacy of success.</p>
+                  </div>
+                  </div>
+
+                 
+
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="Images/2.png" class="w-full" />
+                  <div class="absolute rounded-lg bottom-8 right-16 h-[25vh] w-2/5 bg-black text-white hidden lg:flex">
+                    <div class="mx-4 my-5 gap-3">
+                      <h2 class="text-3xl font-semibold items-center py-3">Meet all the heroes from the field</h2>
+                      <p class="py-1 font-light opacity-4">Every member is instilled with a sense of responsibility, both on and off the ice, contributing to the club's legacy of success.</p>
+                    </div>
+                    </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="Images/3.png" class="w-full" />
+                  <div class="absolute rounded-lg bottom-8 right-16 h-[25vh] w-2/5 bg-black text-white hidden lg:flex">
+                    <div class="mx-4 my-5 gap-3">
+                      <h2 class="text-3xl font-semibold items-center py-3">Meet all the heroes from the field</h2>
+                      <p class="py-1 font-light opacity-4">Every member is instilled with a sense of responsibility, both on and off the ice, contributing to the club's legacy of success.</p>
+                    </div>
+                    </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="Images/4.png" class="w-full" />
+                  <div class="absolute rounded-lg bottom-8 right-16 h-[25vh] w-2/5 bg-black text-white hidden lg:flex">
+                    <div class="mx-4 my-5 gap-3">
+                      <h2 class="text-3xl font-semibold items-center py-3">Meet all the heroes from the field</h2>
+                      <p class="py-1 font-light opacity-4">Every member is instilled with a sense of responsibility, both on and off the ice, contributing to the club's legacy of success.</p>
+                    </div>
+                    </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="my-6 rounded-lg bg-black text-white items-center justify-center flex lg:hidden">
+                <div class="mx-4 my-5 gap-3">
+                  <h2 class="text-xl font-semibold items-center py-3">Meet all the heroes from the field</h2>
+                  <p class="py-1 font-light opacity-4">Every member is instilled with a sense of responsibility, both on and off the ice, contributing to the club's legacy of success.</p>
+                </div>
+                </div>
+          </div>
 
     </header>
+<!-- proffessional section -->
+    <main class="container mx-auto">
+        <section class="text-center my-20">
+            <h1 class="text-5xl font-extrabold mb-5">Professional Hockeys Club</h1>
+            <p class="lg:max-w-3xl mx-auto"> From its humble beginnings on a local pond, the club has evolved into a formidable force in regional and national competitions.</p>
 
-    <main>
+            <div class="grid gap-3 grid-cols-1 lg:grid-cols-4">
+                <!-- first card % -->
+                <div class="card  bg-white shadow-xl my-11">
+                    <figure><div class="radial-progress text-[#FF4240]" style=" --value:87;" role="progressbar"><span class="text-black font-bold">87%</span></div></figure>
+                    <div class="card-body justify-center space-y-3">
+                      <h2 class="text-2xl font-semibold">Prayer Facility</h2>
+                      <p class="font-normal">This club boasts beautifully crafted prayer rooms that cater to various religious traditions. </p>
+                    </div>
+                  </div>
+                  <!-- second card % -->
+                <div class="card  bg-white shadow-xl my-11">
+                    <figure><div class="radial-progress text-[#49D293]" style=" --value:95;" role="progressbar"><span class="text-black font-bold">95%</span></div></figure>
+                    <div class="card-body justify-center space-y-3">
+                      <h2 class="text-2xl font-semibold">Experienced Coach</h2>
+                      <p class="font-normal">Coaches are renowned for their emphasis on player development, focusing on both skill enhancement.</p>
+                    </div>
+                  </div>
+                  <!-- third card % -->
+                <div class="card  bg-white shadow-xl my-11">
+                    <figure><div class="radial-progress text-[#FFB546]" style=" --value:90;" role="progressbar"><span class="text-black font-bold">90%</span></div></figure>
+                    <div class="card-body justify-center space-y-3">
+                      <h2 class="text-2xl font-semibold">Senior Player</h2>
+                      <p class="font-normal">Senior players, with their wealth of experience and enduring passion for the game, continue to be.</p>
+                    </div>
+                  </div>
+                  <!-- four card % -->
+                <div class="card  bg-white shadow-xl my-11">
+                    <figure><div class="radial-progress text-[#4C8DF1]" style=" --value:80;" role="progressbar"><span class="text-black font-bold">80%</span></div></figure>
+                    <div class="card-body justify-center space-y-3">
+                      <h2 class="text-2xl font-semibold">Training Ground</h2>
+                      <p class="font-normal">Training Ground stands as a pinnacle of excellence in the realm of sports training and fitness.</p>
+                    </div>
+                  </div>
+            </div>
+        </section>
 
     </main>
     
     <footer>
             
     </footer>
-    
+
 </body>
 </html>
